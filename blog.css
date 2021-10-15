@@ -1,0 +1,49 @@
+.fa-search {
+    color: red;
+    }
+*{
+    margin: 0;
+    font-family: sans-serif;
+    }
+a {
+    
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    }
+a:hover{
+    background-color: rgb(156, 153, 153);
+    }
+header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 40px;
+    }
+.fa-house-user {
+    font-size:13px;
+    }
+.fa-search{
+    padding-top: 10px;
+    padding-right: 10px;
+    }
+.logo{
+    background-color: #009688;
+    }
+.parent-link{
+     background-color: #000000;
+    width:130px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 420px;
+    visibility: hidden;
+    }
+.drop :hover + .parent-link {
+    visibility: visible;
+    }
